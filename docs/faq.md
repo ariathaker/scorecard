@@ -1,4 +1,4 @@
-# Frequently Asked Questions
+# Frequently Asked Questions TEST
 
 This page answers frequently asked questions about Scorecard, including its purpose, usage, and checks. This page is continually updated. If you would like to add a question, please [contribute](../CONTRIBUTING.md)!
 
@@ -10,7 +10,7 @@ This page answers frequently asked questions about Scorecard, including its purp
 ## Check-Specific Questions
   - [Binary-Artifacts: Can I allowlist testing artifacts?](#binary-artifacts-can-i-allowlist-testing-artifacts)
   - [Code-Review: Can it ignore bot commits?](#code-review-can-it-ignore-bot-commits)
-  - [Dependency-Update-Tool: Why should I trust recommended updates are safe?](#dependency-Update-Tool-why-should-i-trust-recommended-updates-are-safe) 
+  - [Dependency-Update-Tool: Why should I trust recommended updates are safe?](#dependency-Update-Tool-why-should-i-trust-recommended-updates-are-safe)
   - [Fuzzing: Does Scorecard accept custom fuzzers?](#fuzzing-does-scorecard-accept-custom-fuzzers)
   - [Pinned-Dependencies: Will Scorecard detect unpinned dependencies in tests with Dockerfiles?](#pinned-dependencies-will-scorecard-detect-unpinned-dependencies-in-tests-with-dockerfiles)
   - [Pinned-Dependencies: Can I use version pinning instead of hash pinning?](#pinned-dependencies-can-i-use-version-pinning-instead-of-hash-pinning)
@@ -27,7 +27,7 @@ Yes.
 
 Over a million projects are automatically tracked by the Scorecard project. Use the webviewer to see these scores, replacing the placeholder text with the platform, user/org, and repository name: https://securityscorecards.dev/viewer/?uri=<github_or_gitlab>.com/<user_name_or_org>/<repository_name>.
 
-For example: 
+For example:
  - [https://securityscorecards.dev/viewer/?uri=github.com/ossf/scorecard](https://securityscorecards.dev/viewer/?uri=github.com/ossf/scorecard)
  - [https://securityscorecards.dev/viewer/?uri=gitlab.com/fdroid/fdroidclient](https://securityscorecards.dev/viewer/?uri=gitlab.com/fdroid/fdroidclient)
 
@@ -74,7 +74,7 @@ Another configuration possibility that would limit even more the release updates
 
 Currently only for projects written in Go.
 
-For more information, see the [Fuzzing check description](https://github.com/ossf/scorecard/blob/main/docs/checks.md#fuzzing). 
+For more information, see the [Fuzzing check description](https://github.com/ossf/scorecard/blob/main/docs/checks.md#fuzzing).
 
 ### Pinned-Dependencies: Will Scorecard detect unpinned dependencies in tests with Dockerfiles?
 
